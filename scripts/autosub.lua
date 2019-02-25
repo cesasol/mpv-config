@@ -5,7 +5,7 @@
 
 local utils = require 'mp.utils'
 function load_sub_fn()
-    subl = "/usr/local/bin/subliminal" -- use 'which subliminal' to find the path
+    subl = "/usr/bin/subliminal" -- use 'which subliminal' to find the path
     mp.msg.info("Searching subtitle")
     mp.osd_message("Searching subtitle")
     t = {}

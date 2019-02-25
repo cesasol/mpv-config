@@ -1,8 +1,8 @@
 import vapoursynth as vs
 core = vs.get_core()
-core.std.LoadPlugin("/Users/Julian/.mpv/vs-plugins/ffms2/libffms2.dylib")
+core.std.LoadPlugin("/home/cesar/.mpv/vs-plugins/ffms2/libffms2.dylib")
 
-clip = core.ffms2.Source(source='/Users/Julian/Documents/DLs/Test-Videos/test-pulldown.mkv')
+clip = core.ffms2.Source(source='/home/cesar/Documents/DLs/Test-Videos/test-pulldown.mkv')
 display_fps = 60
 container_fps = 24000/1001
 
